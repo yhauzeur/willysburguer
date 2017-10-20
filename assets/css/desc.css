@@ -4,7 +4,19 @@
 	color: #d11f25;
 }
 
+.text-white
+{
+	color: #ffffff;
+}
+
 .m-t-50
 {
 	margin-top: 50px;
+}
+
+.WhatsApp-btn
+{
+	background-color: #25d366;
+	border-color: #1ec15b;
+	border-radius: 100px;
 }
