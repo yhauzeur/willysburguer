@@ -4,9 +4,19 @@
 	color: #d11f25;
 }
 
+.text-redwilly
+{
+	color:#d11f25;
+}
+
 .text-white
 {
 	color: #ffffff;
+}
+
+.text-center
+{
+	text-align: center;
 }
 
 .m-t-50
@@ -19,4 +29,93 @@
 	background-color: #25d366;
 	border-color: #1ec15b;
 	border-radius: 100px;
+}
+
+.slider-background-1
+{
+	background-image: url("../images/slider-background-1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-origin: border-box;
+	height: 100vh;
+}
+
+@media (max-width: 767px)
+    {
+    .slider-background-1  {
+			padding-top: 15%;
+    }
+}
+
+* {
+	pading: 0;
+	margin: 0;
+	font-family: "Lato", sans-serif;
+	position: relative;
+}
+
+.timeline {
+	padding: 40px 0px;
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.timeline:before {
+	content: "";
+	position: absolute;
+	top: 50px;
+	left: 10px;
+	width: 3px;
+	height: calc(100% - 80px);
+	background: rgba(209, 31, 37, 0.5);
+}
+
+.timeline .column {
+	margin: 5px 5px 5px 40px;
+}
+
+.timeline .column .title h3 {
+	font-size: 120px;
+	color: rgba(209, 31, 37, 0.3);
+	font-family: serif;
+	letter-spacing: 3px;
+}
+
+
+.timeline .column .title h4 {
+	margin-top: -60px;
+	font-size: 33px;
+}
+
+.timeline .column .description p {
+	font-size: 13px;
+	line-height: 20px;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-family: serif;
+}
+
+.floatArriba
+{
+    z-index: 1000;
+    display: scroll;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+}
+
+.sizeImgUp
+{
+    width: 50px;
+    height: 50px;
+}
+
+.menuflotante
+{
+	z-index: 2;
+	display: scroll;
+	position: fixed;
+	top: 50%;
+	bottom: 45%;
 }
