@@ -1,15 +1,28 @@
-.inline
+#accordion section div
 {
-	display: inline;
-	background-color: #fff;
+	display: none;
+	text-align:  center;
 }
 
-.white
-{
-	background-color: #fff;
-}
-
-.text-center
+#accordion section a
 {
 	text-align: center;
+	color: black;
+	text-decoration: none;
+}
+
+#accordion section:target div
+{
+	display: block;
+}
+
+#hamburguesa h2
+{
+	/*background-color: #1e1e1e;*/
+	background-image: url("../images/blog-foot-second.jpg");
+	background-position: center;
+	background-size: cover;
+	/*color: #fff;*/
+	height: 100px;
+	/*font-size: 8rem;*/
 }
