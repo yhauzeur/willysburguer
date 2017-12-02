@@ -26,3 +26,25 @@
 	height: 100px;
 	/*font-size: 8rem;*/
 }
+
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 50px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    }
+
+    button.accordion.active, button.accordion:hover {
+        background-color: #ccc;
+    }
+
+    div.panel {
+        padding: 0 18px;
+        background-color: white;
+        display: none;
+    }
